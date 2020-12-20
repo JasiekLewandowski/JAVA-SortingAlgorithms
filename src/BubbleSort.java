@@ -16,6 +16,7 @@ public class BubbleSort {
     }
     return sortedList;
   }
+
   public boolean isSorted(List<Integer> sortedList) {
     for (int i = 0; i < sortedList.size() - 1; i++) {
       if (sortedList.get(i) > sortedList.get(i + 1))
